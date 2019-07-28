@@ -1,5 +1,5 @@
 var katzDeli = [];
-
+var line = [];
 
 
 
@@ -17,11 +17,32 @@ function currentLine(line) {
 }
 }
 
+/*
 function takeANumber (line, name) {
   line.push(name);
   
 console.log("Welcome," +name+ ". You are number" + line.length +"in line."); 
 }
+
+*/
+
+
+
+var ticketNumber = 0;
+
+
+function takeANumber2 () {
+  
+   ticketNumber++
+   return "Welcome your" ticketNumber"  
+   console.log (ticketNumber);
+   
+  
+}
+ 
+
+
+
 
 
 function nowServing(line) {
@@ -36,7 +57,7 @@ function nowServing(line) {
 
 takeANumber(katzDeli, "Billy")
 takeANumber (katzDeli, "Hal")
-takeANumber(katzDeli, );
+takeANumber(katzDeli);
 currentLine (katzDeli);
 nowServing (katzDeli);
 takeANumber(katzDeli, "Shubinder")
